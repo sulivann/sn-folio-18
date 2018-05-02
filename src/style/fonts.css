@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Theinhardt';
+  src: url('../assets/fonts/Theinhardt-Rg.woff2') format('woff2'),
+      url('../assets/fonts/Theinhardt-Rg.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Theinhardt';
+  src: url('../assets/fonts/Theinhardt-Lt.woff2') format('woff2'),
+      url('../assets/fonts/Theinhardt-Lt.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Theinhardt';
+  src: url('../assets/fonts/Theinhardt-Th.woff2') format('woff2'),
+      url('../assets/fonts/Theinhardt-Th.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+

@@ -1,0 +1,20 @@
+.list {
+  margin-top: 90px;
+}
+
+.list ul {
+  margin-top: 35px;
+}
+
+.list li {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.list a {
+  transition: opacity 500ms ease-out;
+}
+
+.list a:hover {
+  opacity: 0.6;
+}

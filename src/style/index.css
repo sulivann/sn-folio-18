@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #1b1b1b;
+  color: #ffffff;
+  font-family: 'Theinhardt', Helvetica;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}

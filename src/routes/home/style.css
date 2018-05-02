@@ -1,0 +1,46 @@
+.home {
+  padding-bottom: 85px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 60px;
+  max-width: 1300px;
+}
+
+.content {
+  width: 87%;
+  margin: 0 0 0 auto;
+  border-top: 1px solid #606060;
+  padding-top: 27px;
+}
+
+.works {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  margin-top: 105px;
+}
+
+.smiley {
+  margin-top: 155px;
+}
+
+@media screen and (max-width: 1250px) {
+  .mobile {
+    display: none;
+  }
+
+  .content {
+    border-top: none;
+    margin: 0;
+  }
+
+  .about {
+    margin-top: 0;
+  }
+}
