@@ -18,8 +18,6 @@ export default class Work extends Component {
     this.angle.y = (0.5 - (this.mouse.x / 470)) * 35;
     this.angle.x = (0.5 - (this.mouse.y / 470)) * 25;
 
-    console.log(this.mouse.y);
-
     this.txt.style = `transform: perspective(500px) translateZ(0px) rotateX(${this.angle.x}deg) rotateY(${this.angle.y}deg) translateY(${this.angle.x}px)`;
     this.shadow.style = `transform: scale(1.2) perspective(500px) translateZ(0px) rotateX(${this.angle.x * 1.2}deg) rotateY(${this.angle.y * 1.2}deg)`;
     this.img.style = `transform: perspective(500px) translateZ(0px) rotateX(${this.angle.x * 0.05}deg) rotateY(${this.angle.y * 0.05}deg);background-image: url("${this.props.img}"`;
