@@ -8,3 +8,13 @@
   background-color: #606060;
   margin-top: 37px;
 }
+
+@media screen and (max-width: 1250px) {
+  .logo {
+    display: none;
+  }
+
+  .line {
+    display: none;
+  }
+}

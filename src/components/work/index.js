@@ -4,6 +4,7 @@ import style from './style';
 export default class Work extends Component {
   componentDidMount() {
     this.txt = this.container.querySelector('h2');
+    this.arrow = this.container.querySelector('img');
 
     this.mouse = {};
     this.angle = {};
@@ -19,6 +20,7 @@ export default class Work extends Component {
     this.angle.x = (0.5 - (this.mouse.y / 470)) * 25;
 
     this.txt.style = `transform: perspective(500px) translateZ(0px) rotateX(${this.angle.x}deg) rotateY(${this.angle.y}deg) translateY(${this.angle.x}px)`;
+    this.arrow.style = `transform: perspective(500px) translateZ(0px) rotateX(${this.angle.x * 1.5}deg) rotateY(${this.angle.y}deg) translateY(${this.angle.x * 3.5}px) translateX(${this.angle.y * 0.5}px)`;
     this.shadow.style = `transform: scale(1.2) perspective(500px) translateZ(0px) rotateX(${this.angle.x * 1.2}deg) rotateY(${this.angle.y * 1.2}deg)`;
     this.img.style = `transform: perspective(500px) translateZ(0px) rotateX(${this.angle.x * 0.05}deg) rotateY(${this.angle.y * 0.05}deg);background-image: url("${this.props.img}"`;
   }
@@ -43,6 +45,7 @@ export default class Work extends Component {
               class={style.shadow}></div>
           </div>
           <h2>{props.label}</h2>
+          <img src="../../assets/img/arrow.svg" />
         </div>
     );
   }
