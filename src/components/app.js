@@ -22,7 +22,7 @@ export default class App extends Component {
 		return (
 			<div id="app">
 				<Router onChange={this.handleRoute}>
-					<Home path="/" />
+					{/* <Home path="/" /> */}
 					<Redirect path="/osmo" to="https://sulivan.notion.site/Showcase-20b955d71d9e49958e24b03372593a21?pvs=4" />
 					<Redirect path="/resume" to="https://sulivan.notion.site/Sulivan-Nguyen-12befbe8a3604ea592ed5e43b1f688d4?pvs=74" />
 				</Router>
