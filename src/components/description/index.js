@@ -6,8 +6,6 @@ export default class Description extends Component {
     return (
         <div class={style.description}>
           Hello, I'm a front-end developer based in Paris.
-          <br />
-          Currently working as a software engineer at Osmo.
         </div>
     );
   }
