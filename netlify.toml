@@ -2,10 +2,8 @@
 from = "/osmo"
 to = "https://sulivan.notion.site/Showcase-20b955d71d9e49958e24b03372593a21?pvs=4"
 status = 301
-force = true
 
 [[redirects]]
 from = "/resume"
 to = "https://sulivan.notion.site/Sulivan-Nguyen-12befbe8a3604ea592ed5e43b1f688d4?pvs=74"
 status = 301
-force = true
