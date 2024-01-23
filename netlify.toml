@@ -4,6 +4,6 @@ to = "https://sulivan.notion.site/Showcase-20b955d71d9e49958e24b03372593a21?pvs=
 status = 301
 
 [[redirects]]
-from = "/from-resume"
-to = "https://sulivan.notion.site/Sulivan-Nguyen-9bb1f88560b4485ca23300d937198ef0?pvs=4"
+from = "/resume"
+to = "https://sulivan.notion.site/Sulivan-Nguyen-12befbe8a3604ea592ed5e43b1f688d4?pvs=74"
 status = 301
