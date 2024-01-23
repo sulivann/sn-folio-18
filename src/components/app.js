@@ -3,7 +3,7 @@ import { Router } from 'preact-router';
 
 import Home from '../routes/home';
 
-import Redirect from '../../components/redirect';
+import Redirect from '../components/redirect';
 
 if (module.hot) {
 	require('preact/debug');
